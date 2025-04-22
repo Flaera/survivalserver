@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://sp1cticwv653"]
+
+[ext_resource type="Texture2D" uid="uid://cvknadcc720qc" path="res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png" id="1_58wi8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_58wi8"]
+atlas = ExtResource("1_58wi8")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ovq2m"]
+atlas = ExtResource("1_58wi8")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cujcs"]
+atlas = ExtResource("1_58wi8")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c3k7x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_58wi8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ovq2m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cujcs")
+}],
+"loop": true,
+"name": &"Player_ship",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mhojx"]
+
+[node name="World-01" type="Node2D"]
+
+[node name="player" type="CharacterBody2D" parent="."]
+
+[node name="anim" type="AnimatedSprite2D" parent="player"]
+position = Vector2(277, 173)
+sprite_frames = SubResource("SpriteFrames_c3k7x")
+animation = &"Player_ship"
+autoplay = "Player_ship"
+
+[node name="collision" type="CollisionShape2D" parent="player"]
+position = Vector2(278, 175)
+shape = SubResource("CapsuleShape2D_mhojx")

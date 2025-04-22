@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://dshnw1o212syq"]
+
+[ext_resource type="Script" uid="uid://c4nrkkw5el5vh" path="res://scripts/projectiles/fire.gd" id="1_h4yqt"]
+[ext_resource type="Texture2D" uid="uid://bve0lro38fmkd" path="res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Projectiles/player_beam1.png" id="2_xf1qy"]
+[ext_resource type="AudioStream" uid="uid://bmvf63edlxim4" path="res://assets/sons/laser-312360.mp3" id="3_xf1qy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h4yqt"]
+size = Vector2(6, 13)
+
+[node name="Fire" type="RigidBody2D" groups=["shoot"]]
+collision_layer = 2
+collision_mask = 2
+input_pickable = true
+script = ExtResource("1_h4yqt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_xf1qy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_h4yqt")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_xf1qy")

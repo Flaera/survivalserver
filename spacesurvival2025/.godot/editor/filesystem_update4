@@ -1,0 +1,10 @@
+res://levels/world_01.tscn
+res://scripts/path_2d_enemies_caster.gd
+res://levels/enemies/alan(16x_16).tscn
+res://levels/enemies/bonbon.tscn
+res://levels/enemies/lips.tscn
+res://levels/Fire.tscn
+res://scripts/enemies/alan(16x_16).gd
+res://scripts/projectiles/fire.gd
+res://levels/game_over/game_over.gd
+res://scripts/player.gd

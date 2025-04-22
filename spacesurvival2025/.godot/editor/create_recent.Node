@@ -1,0 +1,14 @@
+Timer
+Area2D
+VBoxContainer
+AnimationPlayer
+Label
+ColorRect
+HBoxContainer
+WorldEnvironment
+RichTextLabel
+CanvasLayer
+AudioStreamPlayer
+Node2D
+RigidBody2D
+CollisionShape2D
