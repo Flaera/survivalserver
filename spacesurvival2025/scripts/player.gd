@@ -6,11 +6,19 @@ extends CharacterBody2D
 @onready var cooldown: float = max_cooldown
 @onready var hearts: int = 5
 @onready var load_hearts: bool = false
-@onready var cooldown_hearts: float = 3.0
+@onready var max_hearts: float = 1.0
+@onready var invencible: bool = false
+@onready var cooldown_hearts: float = max_hearts
 const SPEED = 300.0
 
 
 func _process(delta):
+	#print("data=",cooldown_hearts)
+	if (invencible==true and cooldown_hearts>=0.0):
+		cooldown_hearts-=delta*1.5
+	else:
+		cooldown_hearts=max_hearts
+		invencible = false
 	if (hearts<=0):
 		get_parent().get_node("CanvasLayer/ColorRect").visible=true
 		get_tree().paused=true
@@ -54,7 +62,7 @@ func _physics_process(_delta: float) -> void:
 
 func _on_area_2d_player_area_entered(area: Area2D) -> void:
 	#print("AQUI,=",area)
-	if (area.is_in_group("enemies") and area.get_parent().dead==false):
-		
+	if (invencible==false and area.is_in_group("enemies") and area.get_parent().dead==false):
+		invencible = true
 		hearts-=1
-		$AnimationPlayer.play("res://animations/death_anim.res")
+		$AnimationPlayer.play("death_player_anim")

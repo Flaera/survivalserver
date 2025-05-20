@@ -1,107 +1,135 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745360670
-icon.svg::CompressedTexture2D/CompressedTexture2D::785200777629022410::1743826970::1743826976::1::::<><><>0<>0<>f4e21bf653403291b84323735d8aa730<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-world_01.tscn::PackedScene/PackedScene::1295948075618437980::1743830073::0::1::::<><><>0<>0<><>::uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png
-::res://animations/::1745335524
-death_anim.res::Animation/Animation::1518238243207008237::1745325913::0::1::::<><><>0<>0<><>::
-::res://assets/::1745335525
-BebasNeue-Regular.ttf::FontFile/FontFile::6974090925154850800::1727119214::1745291569::1::::<><><>0<>0<>9944f8c583bea4f8d7262e9f3900cd4b<>res://.godot/imported/BebasNeue-Regular.ttf-96b0a38fe567e8a9a90049dd78e6a8a3.fontdata::
-::res://assets/Cave Tileset/::1743827384
-::res://assets/Cave Tileset/Cave Tileset/::1745335532
-_Complete_static_BG_(288 x 208).png::CompressedTexture2D/CompressedTexture2D::2135812158417775540::1743827384::1743827502::1::::<><><>0<>0<>99d8efef600f3a246640f25695fc55da<>res://.godot/imported/_Complete_static_BG_(288 x 208).png-aadf03e152ce39afa44c64e0ec308a57.ctex::
-_LICENSE.txt::TextFile/TextFile::-1::1743827384::0::1::::<><><>0<>0<><>::
-Brown_Tile_Terrain (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7062830345860622577::1743827384::1743827502::1::::<><><>0<>0<>d39c7e3acad2dbdc296651920ce3fb4a<>res://.godot/imported/Brown_Tile_Terrain (16 x 16).png-0ff916245a7231ce7b69616ff2280ba0.ctex::
-Gray_Tile_Terrain (16 x 16).png::CompressedTexture2D/CompressedTexture2D::1453645523701571656::1743827384::1743827502::1::::<><><>0<>0<>50ccc64689c7911f690f2558c5ac36e0<>res://.godot/imported/Gray_Tile_Terrain (16 x 16).png-5ba48e382deb4de22118f7f967426139.ctex::
-Scaffolding_and_BG_Parts (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7050148478523643460::1743827384::1743827502::1::::<><><>0<>0<>5e5dac99aa66cb0847b7f24485ed1417<>res://.godot/imported/Scaffolding_and_BG_Parts (16 x 16).png-6b2eaf21ff9ee84f496148f5b0d917cd.ctex::
-::res://assets/Mini FX, Items & UI/::1743827368
-::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/::1745335532
-LICENSE.txt::TextFile/TextFile::-1::1743827368::0::1::::<><><>0<>0<><>::
-::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/::1745335533
-Coin (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7766913923352973512::1743827368::1743827502::1::::<><><>0<>0<>ecfdffd063a0fee95b3416c9e0c868e4<>res://.godot/imported/Coin (16 x 16).png-83b56727f4106ef9290c502a7f17048f.ctex::
-Health_Kit (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8664046161414663702::1743827368::1743827502::1::::<><><>0<>0<>0c81c31b1061633f8bdcff14adf50b4b<>res://.godot/imported/Health_Kit (16 x 16).png-430c8a607997aaa93a372621cd352ada.ctex::
-Heart_Spin (16 x 16).png::CompressedTexture2D/CompressedTexture2D::3645499658673253973::1743827368::1743827502::1::::<><><>0<>0<>eadca6930bf17b6d356c5bb2c8051157<>res://.godot/imported/Heart_Spin (16 x 16).png-316f78c8a787fb08f58325b2d8f4880d.ctex::
-Small_Coin (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7840894527865855224::1743827368::1743827502::1::::<><><>0<>0<>9a71f2d69a558eebe6c525c682d7e572<>res://.godot/imported/Small_Coin (16 x 16).png-3976f22a8e670e5a0a8fe1d39916da7e.ctex::
-Treasure_Chest (32 x 16).png::CompressedTexture2D/CompressedTexture2D::9113634938395996740::1743827368::1743827502::1::::<><><>0<>0<>08f55abd19a5b81fe44d49439690fa35<>res://.godot/imported/Treasure_Chest (32 x 16).png-a00c3f715bcb6dab434007d2bf7d0509.ctex::
-Wrapped_Presents (16 x 16).png::CompressedTexture2D/CompressedTexture2D::3408112801110777848::1743827368::1743827502::1::::<><><>0<>0<>fb5a9f666d85cf3d53ca06bafe36aa36<>res://.godot/imported/Wrapped_Presents (16 x 16).png-161018c44869db17e7dbf1b8303cff9e.ctex::
-::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Effects/::1745335533
-Bright_Sparkle (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4001262070012927710::1743827368::1743827502::1::::<><><>0<>0<>b7c5db6cc69182b6f294018a9d9e02fd<>res://.godot/imported/Bright_Sparkle (16 x 16).png-f52db37e4684761b7d8b8f8936d1d12f.ctex::
-Cloud_Poof (16 x 16).png::CompressedTexture2D/CompressedTexture2D::569376652571855532::1743827368::1743827502::1::::<><><>0<>0<>6f9ecf9f916108eea63497f24fb3a225<>res://.godot/imported/Cloud_Poof (16 x 16).png-48df3b37da0c4f7787992fd56787c04d.ctex::
-Dust (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5822919586111570929::1743827368::1743827502::1::::<><><>0<>0<>1a0cb7559be9c5054899d60ef3cd2fce<>res://.godot/imported/Dust (16 x 16).png-4cc3f538ace8ad19299ce5b2ec768e36.ctex::
-Explosion_Poof (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4048380196899114494::1743827368::1743827502::1::::<><><>0<>0<>fb95aa7e8ecee20183d9e17f4b24cc81<>res://.godot/imported/Explosion_Poof (16 x 16).png-62fd03a74a20295c1c6b0438ccf49b41.ctex::
-Yellow_Sparkle (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4341276551091335870::1743827368::1743827502::1::::<><><>0<>0<>e8005b8b73b7206e48ea273b98406f75<>res://.godot/imported/Yellow_Sparkle (16 x 16).png-dd1b5562b3f8198583f02516396c300c.ctex::
-::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Food Items/::1745335534
-Bottled_Drinks (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4948432235048627921::1743827368::1743827502::1::::<><><>0<>0<>2215eb1346ecab969d9bf55f817d38b3<>res://.godot/imported/Bottled_Drinks (16 x 16).png-5f441114a56b406140371f9290cb3593.ctex::
-Burger_&_Fries (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6809613879599424575::1743827368::1743827502::1::::<><><>0<>0<>8de30f1582057fae70e4a7f084d47102<>res://.godot/imported/Burger_&_Fries (16 x 16).png-0f165c4a6b54df2ab90a841c1bbfa66d.ctex::
-Cake_Slices (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5314708386099167976::1743827368::1743827502::1::::<><><>0<>0<>07e377115302a36ab85860235c360283<>res://.godot/imported/Cake_Slices (16 x 16).png-00ae70129659f6000a649e85bce98f97.ctex::
-Chocolate_Bars (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7152029920498259787::1743827368::1743827502::1::::<><><>0<>0<>1e9a469f831434922e836733c065fdb0<>res://.godot/imported/Chocolate_Bars (16 x 16).png-bb2237e28fcb94b481bee0bab176e737.ctex::
-Fruits (16 x 16).png::CompressedTexture2D/CompressedTexture2D::3973192024279155014::1743827368::1743827502::1::::<><><>0<>0<>66a3dca8b270d4fc4a1668e7bffcf4e3<>res://.godot/imported/Fruits (16 x 16).png-f761473d62bb13c6e92e4d6b5c3962aa.ctex::
-Grilled_Panini (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8317163490523114175::1743827368::1743827502::1::::<><><>0<>0<>dd99bf700c76002748a6410cc2954513<>res://.godot/imported/Grilled_Panini (16 x 16).png-9af0e220e1c7bd13e34a33441b83bee1.ctex::
-Ice_Cream_Cones (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6242469034866595631::1743827368::1743827502::1::::<><><>0<>0<>449da281dd0e974f712fd6210c50acb2<>res://.godot/imported/Ice_Cream_Cones (16 x 16).png-63d647ed9d2a94e2afb3a0366f0c5ce5.ctex::
-Milk_Cartons (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5505220838106059751::1743827368::1743827502::1::::<><><>0<>0<>885969c7bcd0aa4c47720d223c18f279<>res://.godot/imported/Milk_Cartons (16 x 16).png-0d4173395a710e4e709a344021b8060e.ctex::
-Pancake_Stack (16 x 16).png::CompressedTexture2D/CompressedTexture2D::9202681158820620112::1743827368::1743827502::1::::<><><>0<>0<>4faac447bd26f3bb7ac18331beb719fb<>res://.godot/imported/Pancake_Stack (16 x 16).png-a6c290da54ec0b9541f23c53d8248804.ctex::
-Salad_Bowl (16 x 16).png::CompressedTexture2D/CompressedTexture2D::1268841897418014397::1743827368::1743827502::1::::<><><>0<>0<>d2469eda91cbb4b94f82f54f2986c0b0<>res://.godot/imported/Salad_Bowl (16 x 16).png-954b5beae6f5175800852ca067364577.ctex::
-Sushi_Variety (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7624356687451492346::1743827369::1743827502::1::::<><><>0<>0<>8f67a4db494344ae23cae9a93ccdbcca<>res://.godot/imported/Sushi_Variety (16 x 16).png-9119ccf1e21baa95ba3db3de84124813.ctex::
-Wrapped_Candies (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8110065804923599608::1743827369::1743827502::1::::<><><>0<>0<>a40f77a26a55e098c506aa3d759dd902<>res://.godot/imported/Wrapped_Candies (16 x 16).png-602b8416bc5253cda1ae28a503c92522.ctex::
-::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/::1745335534
-Health_Indicator_Black_Outline (8 x 8).png::CompressedTexture2D/CompressedTexture2D::383295407865256946::1743827369::1743827502::1::::<><><>0<>0<>b1583bdc048ad21c5a4921eb87d22393<>res://.godot/imported/Health_Indicator_Black_Outline (8 x 8).png-4205d5ab2c19001398020f98297666d8.ctex::
-Health_Indicator_White_Outline (8 x 8).png::CompressedTexture2D/CompressedTexture2D::4867521900495209907::1743827369::1743827502::1::::<><><>0<>0<>b778b7fb9ea668a2eec6f1b4841639e0<>res://.godot/imported/Health_Indicator_White_Outline (8 x 8).png-d5c6544c766df1e2036e721b007fa328.ctex::
-Mouse_Icons_Outlined (16 x 16).png::CompressedTexture2D/CompressedTexture2D::491507176793382042::1743827369::1743827502::1::::<><><>0<>0<>87a75095e1291e9c05a01bdd096d92f6<>res://.godot/imported/Mouse_Icons_Outlined (16 x 16).png-32e4b3d71b3d8c197bb3a23570230335.ctex::
-Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2343356476891547251::1743827369::1743827502::1::::<><><>0<>0<>c7b1aed73797af614107b405ff2c8a74<>res://.godot/imported/Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png-0a1ee45508acaeb63baced6fd09fae4c.ctex::
-Speech_Emotes (16 x 16).png::CompressedTexture2D/CompressedTexture2D::790654645537224066::1743827369::1743827502::1::::<><><>0<>0<>ea14a1261e9f7ec4ee60fc28f5dc8c9b<>res://.godot/imported/Speech_Emotes (16 x 16).png-2bad9a1df7ab4f9eba937af09e8e653e.ctex::
-Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D/CompressedTexture2D::1910051612974175122::1743827369::1743827502::1::::<><><>0<>0<>4de0ee9fdfe1c7dd5f9059a045691767<>res://.godot/imported/Timer_Coin_Numbers_Drop-shadowed (8 x 8).png-aae9763690261ff68fabee31b5a4f46b.ctex::
-Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D/CompressedTexture2D::7275058346423185821::1743827369::1743827502::1::::<><><>0<>0<>88df0645aba3fd6c31465fae243f9eec<>res://.godot/imported/Timer_Coin_Numbers_Outlined (8 x 8).png-b97acb19f78d71b8ccf90beba23ce6cd.ctex::
-::res://assets/Mini Pixel Pack 3/::1743827401
-::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/::1745335534
-LICENSE.txt::TextFile/TextFile::-1::1743827401::0::1::::<><><>0<>0<><>::
-Space_BG (2 frames) (64 x 64).png::CompressedTexture2D/CompressedTexture2D::4903969603241197060::1743827401::1743827502::1::::<><><>0<>0<>dfc29f380b73098ec66dea0ab95f9397<>res://.godot/imported/Space_BG (2 frames) (64 x 64).png-1f68ecc5ea936c6447d3bc42a7cb0997.ctex::
-::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Effects/::1745335534
-Explosion (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2014240624730491525::1743827401::1743827502::1::::<><><>0<>0<>9b45166c6e067d69d2725c6cb478dc13<>res://.godot/imported/Explosion (16 x 16).png-a21ba930b5a229e1c571aaf27610cdec.ctex::
-Sparkle (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4760787885058905769::1743827401::1743827502::1::::<><><>0<>0<>bdd72039b87c3e9123b7210c11dda08a<>res://.godot/imported/Sparkle (16 x 16).png-b3412c6fff42c08894bdaaff477e2ad9.ctex::
-::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/::1745335534
-Alan (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7195377241745942249::1743827401::1743827502::1::::<><><>0<>0<>436e17138b39592a4106b93771403ca8<>res://.godot/imported/Alan (16 x 16).png-29475cfe4abfc478b29bc2212cef44f9.ctex::
-Bon_Bon (16 x 16).png::CompressedTexture2D/CompressedTexture2D::109503663085865662::1743827401::1743827502::1::::<><><>0<>0<>f0468622b25d4c91bb1e6fe79913635e<>res://.godot/imported/Bon_Bon (16 x 16).png-18a973e5aa185fb0db4477beefe7d7d1.ctex::
-Lips (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7223797466884351232::1743827401::1743827502::1::::<><><>0<>0<>9378dbd109a41fca490e8a2fafc42e8a<>res://.godot/imported/Lips (16 x 16).png-a73f4decbd7b3e7a271992b721ae10ff.ctex::
-::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Items/::1745335535
-Circle_+_Square_+_Missile_pick-ups (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4887183590639572849::1743827401::1743827502::1::::<><><>0<>0<>c2531d7852962bde9e75647a89c1864e<>res://.godot/imported/Circle_+_Square_+_Missile_pick-ups (16 x 16).png-e9a183e66ad97f2d6bd8da78d5d2ba77.ctex::
-Power_item (16 x 16).png::CompressedTexture2D/CompressedTexture2D::715021566851918908::1743827402::1743827502::1::::<><><>0<>0<>021d6452f5780021e36687bc8f65ed31<>res://.godot/imported/Power_item (16 x 16).png-bb459326a6c2401e2436688e25b632a7.ctex::
-::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/::1745335535
-Boosters (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8950928241188109498::1743827402::1743827502::1::::<><><>0<>0<>81b8778fbf324c2a3b814db205b6273a<>res://.godot/imported/Boosters (16 x 16).png-5c541737373179200abad687666808eb.ctex::
-Boosters_left (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6418259132479595033::1743827402::1743827502::1::::<><><>0<>0<>68395b14239e3382fa1d48dcfeaaab04<>res://.godot/imported/Boosters_left (16 x 16).png-806a45dc62c1aafe050b3114cb3bc350.ctex::
-Boosters_right (16 x 16).png::CompressedTexture2D/CompressedTexture2D::9209403759808416745::1743827402::1743827502::1::::<><><>0<>0<>226079f3c636fcf4d91767e941f3d965<>res://.godot/imported/Boosters_right (16 x 16).png-3541d682cb420e549c7d89cd8e69a219.ctex::
-Player_ship (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6268240343025827486::1743827402::1743827502::1::::<><><>0<>0<>d242b8caa0d106289dc50208a40eb764<>res://.godot/imported/Player_ship (16 x 16).png-2e3ea85da724b6e7e9adaf9da58ca80e.ctex::
-::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Projectiles/::1745335535
-Enemy_projectile (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2732411846033237800::1743827402::1743827502::1::::<><><>0<>0<>b555dcadc9bf100edda271de5c04e5a2<>res://.godot/imported/Enemy_projectile (16 x 16).png-c1de57ec77b0ced223d59dda92c6b104.ctex::
-player_beam1.png::CompressedTexture2D/CompressedTexture2D::3870182395500851647::1745299434::1745299441::1::::<><><>0<>0<>ce31f36047a58ad8028a8e141dac272a<>res://.godot/imported/player_beam1.png-7ab2845d30f264ddbc55384feeb98860.ctex::
-Player_beam (16 x 16).png::CompressedTexture2D/CompressedTexture2D::766946363019313579::1743827402::1743827502::1::::<><><>0<>0<>b964d48c9d82377ad080480238e3610e<>res://.godot/imported/Player_beam (16 x 16).png-a453d35f8b5f0867d479e3586240ed70.ctex::
-Player_charged_beam (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2023386496279594634::1743827402::1743827502::1::::<><><>0<>0<>5021267fd6deffbcf63344800a626959<>res://.godot/imported/Player_charged_beam (16 x 16).png-f2c7004eca267d91880417e6b7e749d3.ctex::
-Player_charged_donut_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7864929159787848360::1743827402::1743827502::1::::<><><>0<>0<>7915565800abdcafede796580cda1295<>res://.godot/imported/Player_charged_donut_shot (16 x 16).png-6787d316909d70bd8c1887d43c97afca.ctex::
-Player_charged_square_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8036436604678539137::1743827402::1743827502::1::::<><><>0<>0<>c1b6ee1b26c2457d6c34fbea36ecdd0e<>res://.godot/imported/Player_charged_square_shot (16 x 16).png-6718e285c2faabe565129464e1f43330.ctex::
-Player_donut_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6199567686655454016::1743827402::1743827502::1::::<><><>0<>0<>eed5084deb35719e5c8777b31129a106<>res://.godot/imported/Player_donut_shot (16 x 16).png-9cf94747c599850cfcca28fc496e9d5a.ctex::
-Player_missile_shots (16 x 16).png::CompressedTexture2D/CompressedTexture2D::576711202117764299::1743827402::1743827502::1::::<><><>0<>0<>e16726ccc93a29038223178ac33572b0<>res://.godot/imported/Player_missile_shots (16 x 16).png-e669906af3a0a32babedadf80c403c40.ctex::
-Player_square_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::703609993216130476::1743827402::1743827502::1::::<><><>0<>0<>fea555779e2d3e20347741f6c170aa25<>res://.godot/imported/Player_square_shot (16 x 16).png-1d4843cebb9218a354e2b3daaa1a4b73.ctex::
-::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/UI objects/::1745335536
-GAME_OVER (72 x 8).png::CompressedTexture2D/CompressedTexture2D::33730660078724569::1743827402::1743827502::1::::<><><>0<>0<>30eac1bcde72703696545aee9a164bbf<>res://.godot/imported/GAME_OVER (72 x 8).png-530ec8907797ff183230e5a0125bc966.ctex::
-Item_held_box (16 x 16).png::CompressedTexture2D/CompressedTexture2D::1789779296921215315::1743827402::1743827502::1::::<><><>0<>0<>29b72e58bab09ebce95c7952866b3b8c<>res://.godot/imported/Item_held_box (16 x 16).png-b42753ca9bec85d078037741c8e26bba.ctex::
-Number_font (8 x 8).png::CompressedTexture2D/CompressedTexture2D::5385963862716487586::1743827402::1743827502::1::::<><><>0<>0<>79ed853f7ff0a87b0b3dd9a86fa615ba<>res://.godot/imported/Number_font (8 x 8).png-38a8f063a31ef11f4704dd1ec7387190.ctex::
-Player_life_icon (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5507969010922989916::1743827402::1743827502::1::::<><><>0<>0<>64e7ee638ba08d72a1b74d1e1d32b3d5<>res://.godot/imported/Player_life_icon (16 x 16).png-d4b8bdcf2480d6b64bcdfa50cf4945eb.ctex::
-Power_+_charge_bars (full + empty) (32 x 16).png::CompressedTexture2D/CompressedTexture2D::7034425456006302495::1743827402::1743827502::1::::<><><>0<>0<>5e9e92eb69d1620e7d03d083f67b16b4<>res://.godot/imported/Power_+_charge_bars (full + empty) (32 x 16).png-0ec1f19065064cd0b0607882933a32a8.ctex::
-START (48 x 8).png::CompressedTexture2D/CompressedTexture2D::1177553451457783813::1743827402::1743827502::1::::<><><>0<>0<>b0779d68243ce1a52249e050ec27636e<>res://.godot/imported/START (48 x 8).png-bffe90ee798d8a454bbec7567f3c2ca3.ctex::
-::res://assets/sons/::1745335525
-laser-312360.mp3::AudioStreamMP3/AudioStreamMP3::3272399161744570397::1745312893::1745312925::1::::<><><>0<>0<>61e5ce84fb2c68178c833024690deaf1<>res://.godot/imported/laser-312360.mp3-dffdaa37479e4fc3a509df2d295837fa.mp3str::
-medium-explosion-40472.mp3::AudioStreamMP3/AudioStreamMP3::7248325776940985048::1745314347::1745314365::1::::<><><>0<>0<>607adb5ddca7ee714eff9e66130da3bd<>res://.godot/imported/medium-explosion-40472.mp3-c504e7a65efcd386fd8d747492549f26.mp3str::
-::res://levels/::1745360566
-Fire.tscn::PackedScene::8437941877711125856::1745360566::0::1::::<><><>0<>0<><>::uid://c4nrkkw5el5vh::::res://scripts/projectiles/fire.gd<>uid://bve0lro38fmkd::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Projectiles/player_beam1.png<>uid://bmvf63edlxim4::::res://assets/sons/laser-312360.mp3
-world_01.tscn::PackedScene::8415389301673380305::1745360566::0::1::::<><><>0<>0<><>::uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://b3r4nf12p08ib::::res://scripts/player.gd<>uid://5ourqoic6n4o::::res://assets/Cave Tileset/Cave Tileset/_Complete_static_BG_(288 x 208).png<>uid://uyflg1sr32mu::::res://assets/Cave Tileset/Cave Tileset/Gray_Tile_Terrain (16 x 16).png<>uid://dbje4py8nm3eq::::res://assets/sons/medium-explosion-40472.mp3<>uid://hhw0i18wwm5x::::res://scripts/path_2d_enemies_caster.gd<>uid://c6mki17nw3p0c::::res://assets/BebasNeue-Regular.ttf<>uid://bscg4tv8usemr::::res://levels/game_over/game_over.gd<>uid://fpw24goemi8q::::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png
-::res://levels/enemies/::1745360566
-alan(16x_16).tscn::PackedScene::919035787068011976::1745360566::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://darq2utpvbf4d::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Alan (16 x 16).png<>uid://vvpfrle5kwe4::::res://animations/death_anim.res
-bonbon.tscn::PackedScene::7854758856453323428::1745360566::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://btbrk12e1g27::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Bon_Bon (16 x 16).png
-lips.tscn::PackedScene::7287047990346259000::1745360566::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://da6i5hsenwgg3::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Lips (16 x 16).png
-::res://levels/game_over/::1745336523
-game_over.gd::GDScript/GDScript::3654365746576997993::1745336523::0::1::::<>ColorRect<><>0<>0<><>::
-::res://scripts/::1745360566
-path_2d_enemies_caster.gd::GDScript::507153430314493683::1745360566::0::1::::<>Path2D<><>0<>0<><>::
-player.gd::GDScript/GDScript::4388587039517503149::1745336523::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scripts/enemies/::1745336523
-alan(16x_16).gd::GDScript/GDScript::5915796482800930475::1745336523::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/projectiles/::1745336523
-fire.gd::GDScript/GDScript::6836205351096071585::1745336523::0::1::::<>Node2D<><>0<>0<><>::
+::res://::1747746169
+icon.svg::CompressedTexture2D/CompressedTexture2D::785200777629022410::1747610448::1747610761::1::::<><><>0<>0<>f4e21bf653403291b84323735d8aa730<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+default_bus_layout.tres::AudioBusLayout::3231643485303968429::1747746169::0::1::::<><><>0<>0<><>::
+world_01.tscn::PackedScene/PackedScene::1295948075618437980::1747610448::0::1::::<><><>0<>0<><>::uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png
+::res://animations/::1747610448
+death_anim.res::Animation/Animation::1518238243207008237::1747610448::0::1::::<><><>0<>0<><>::
+::res://assets/::1747702894
+BebasNeue-Regular.ttf::FontFile/FontFile::6974090925154850800::1747610448::1747610761::1::::<><><>0<>0<>9944f8c583bea4f8d7262e9f3900cd4b<>res://.godot/imported/BebasNeue-Regular.ttf-96b0a38fe567e8a9a90049dd78e6a8a3.fontdata::
+::res://assets/bgparalax/::1747704466
+Nebula Aqua-Pink.png::CompressedTexture2D/CompressedTexture2D::4184543139815452710::1515307508::1747702944::1::::<><><>0<>0<>0f06b76d02490beb39a9f2ff2dca15d4<>res://.godot/imported/Nebula Aqua-Pink.png-7fcc73d58de3e80933d1b1fecbf3927c.ctex::
+Nebula Blue.png::CompressedTexture2D/CompressedTexture2D::5067217911194346471::1509881665::1747702943::1::::<><><>0<>0<>e18c35f68c9b78feaf09c0519fb80868<>res://.godot/imported/Nebula Blue.png-8a8a83d784439c65484a76ca573717c1.ctex::
+Nebula Red.png::CompressedTexture2D/CompressedTexture2D::2446307501801284811::1509881538::1747702944::1::::<><><>0<>0<>e117ac890259ef7b9c72e3384ca3896e<>res://.godot/imported/Nebula Red.png-9f819ceb65808570d6ccc69e39bcd8a6.ctex::
+Stars Small_1.png::CompressedTexture2D/CompressedTexture2D::6704621826539638093::1509474660::1747702944::1::::<><><>0<>0<>e43bdc800eab06d3cd2a556eee383312<>res://.godot/imported/Stars Small_1.png-970e9c9a7593de867b07d7b0a7f34dc7.ctex::
+Stars Small_2.png::CompressedTexture2D/CompressedTexture2D::5260155089764874735::1509506123::1747702944::1::::<><><>0<>0<>ac84a41928b26e77ef992904153b6bce<>res://.godot/imported/Stars Small_2.png-1784f548e1b7026622f14291de6ed4d6.ctex::
+Stars-Big_1_1_PC.png::CompressedTexture2D/CompressedTexture2D::5103996293935750993::1513163260::1747702943::1::::<><><>0<>0<>f4d9b4350ad317273e493f7b8f5a3c97<>res://.godot/imported/Stars-Big_1_1_PC.png-9ff2205b88af054b7c9723500b165b40.ctex::
+Stars-Big_1_2_PC.png::CompressedTexture2D/CompressedTexture2D::4877661657583985449::1513163137::1747702943::1::::<><><>0<>0<>bf7295a676663997d673f4beeac33a37<>res://.godot/imported/Stars-Big_1_2_PC.png-09e07e85fc832449a201a584355fd66f.ctex::
+::res://assets/bgparalax/my_edits/::1747714240
+::res://assets/Cave Tileset/::1747610448
+::res://assets/Cave Tileset/Cave Tileset/::1747610761
+_Complete_static_BG_(288 x 208).png::CompressedTexture2D/CompressedTexture2D::2135812158417775540::1747610448::1747610761::1::::<><><>0<>0<>99d8efef600f3a246640f25695fc55da<>res://.godot/imported/_Complete_static_BG_(288 x 208).png-aadf03e152ce39afa44c64e0ec308a57.ctex::
+_LICENSE.txt::TextFile/TextFile::-1::1747610448::0::1::::<><><>0<>0<><>::
+Brown_Tile_Terrain (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7062830345860622577::1747610448::1747610761::1::::<><><>0<>0<>d39c7e3acad2dbdc296651920ce3fb4a<>res://.godot/imported/Brown_Tile_Terrain (16 x 16).png-0ff916245a7231ce7b69616ff2280ba0.ctex::
+Gray_Tile_Terrain (16 x 16).png::CompressedTexture2D/CompressedTexture2D::1453645523701571656::1747610448::1747610761::1::::<><><>0<>0<>50ccc64689c7911f690f2558c5ac36e0<>res://.godot/imported/Gray_Tile_Terrain (16 x 16).png-5ba48e382deb4de22118f7f967426139.ctex::
+Scaffolding_and_BG_Parts (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7050148478523643460::1747610448::1747610761::1::::<><><>0<>0<>5e5dac99aa66cb0847b7f24485ed1417<>res://.godot/imported/Scaffolding_and_BG_Parts (16 x 16).png-6b2eaf21ff9ee84f496148f5b0d917cd.ctex::
+::res://assets/Mini FX, Items & UI/::1747610448
+::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/::1747610448
+LICENSE.txt::TextFile/TextFile::-1::1747610448::0::1::::<><><>0<>0<><>::
+::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/::1747610761
+Coin (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7766913923352973512::1747610448::1747610761::1::::<><><>0<>0<>ecfdffd063a0fee95b3416c9e0c868e4<>res://.godot/imported/Coin (16 x 16).png-83b56727f4106ef9290c502a7f17048f.ctex::
+Health_Kit (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8664046161414663702::1747610448::1747610761::1::::<><><>0<>0<>0c81c31b1061633f8bdcff14adf50b4b<>res://.godot/imported/Health_Kit (16 x 16).png-430c8a607997aaa93a372621cd352ada.ctex::
+Heart_Spin (16 x 16).png::CompressedTexture2D/CompressedTexture2D::3645499658673253973::1747610448::1747610761::1::::<><><>0<>0<>eadca6930bf17b6d356c5bb2c8051157<>res://.godot/imported/Heart_Spin (16 x 16).png-316f78c8a787fb08f58325b2d8f4880d.ctex::
+Small_Coin (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7840894527865855224::1747610448::1747610761::1::::<><><>0<>0<>9a71f2d69a558eebe6c525c682d7e572<>res://.godot/imported/Small_Coin (16 x 16).png-3976f22a8e670e5a0a8fe1d39916da7e.ctex::
+Treasure_Chest (32 x 16).png::CompressedTexture2D/CompressedTexture2D::9113634938395996740::1747610448::1747610761::1::::<><><>0<>0<>08f55abd19a5b81fe44d49439690fa35<>res://.godot/imported/Treasure_Chest (32 x 16).png-a00c3f715bcb6dab434007d2bf7d0509.ctex::
+Wrapped_Presents (16 x 16).png::CompressedTexture2D/CompressedTexture2D::3408112801110777848::1747610448::1747610761::1::::<><><>0<>0<>fb5a9f666d85cf3d53ca06bafe36aa36<>res://.godot/imported/Wrapped_Presents (16 x 16).png-161018c44869db17e7dbf1b8303cff9e.ctex::
+::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Effects/::1747610761
+Bright_Sparkle (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4001262070012927710::1747610448::1747610761::1::::<><><>0<>0<>b7c5db6cc69182b6f294018a9d9e02fd<>res://.godot/imported/Bright_Sparkle (16 x 16).png-f52db37e4684761b7d8b8f8936d1d12f.ctex::
+Cloud_Poof (16 x 16).png::CompressedTexture2D/CompressedTexture2D::569376652571855532::1747610448::1747610761::1::::<><><>0<>0<>6f9ecf9f916108eea63497f24fb3a225<>res://.godot/imported/Cloud_Poof (16 x 16).png-48df3b37da0c4f7787992fd56787c04d.ctex::
+Dust (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5822919586111570929::1747610448::1747610761::1::::<><><>0<>0<>1a0cb7559be9c5054899d60ef3cd2fce<>res://.godot/imported/Dust (16 x 16).png-4cc3f538ace8ad19299ce5b2ec768e36.ctex::
+Explosion_Poof (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4048380196899114494::1747610448::1747610761::1::::<><><>0<>0<>fb95aa7e8ecee20183d9e17f4b24cc81<>res://.godot/imported/Explosion_Poof (16 x 16).png-62fd03a74a20295c1c6b0438ccf49b41.ctex::
+Yellow_Sparkle (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4341276551091335870::1747610448::1747610761::1::::<><><>0<>0<>e8005b8b73b7206e48ea273b98406f75<>res://.godot/imported/Yellow_Sparkle (16 x 16).png-dd1b5562b3f8198583f02516396c300c.ctex::
+::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Food Items/::1747610761
+Bottled_Drinks (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4948432235048627921::1747610448::1747610761::1::::<><><>0<>0<>2215eb1346ecab969d9bf55f817d38b3<>res://.godot/imported/Bottled_Drinks (16 x 16).png-5f441114a56b406140371f9290cb3593.ctex::
+Burger_&_Fries (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6809613879599424575::1747610448::1747610761::1::::<><><>0<>0<>8de30f1582057fae70e4a7f084d47102<>res://.godot/imported/Burger_&_Fries (16 x 16).png-0f165c4a6b54df2ab90a841c1bbfa66d.ctex::
+Cake_Slices (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5314708386099167976::1747610448::1747610761::1::::<><><>0<>0<>07e377115302a36ab85860235c360283<>res://.godot/imported/Cake_Slices (16 x 16).png-00ae70129659f6000a649e85bce98f97.ctex::
+Chocolate_Bars (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7152029920498259787::1747610448::1747610761::1::::<><><>0<>0<>1e9a469f831434922e836733c065fdb0<>res://.godot/imported/Chocolate_Bars (16 x 16).png-bb2237e28fcb94b481bee0bab176e737.ctex::
+Fruits (16 x 16).png::CompressedTexture2D/CompressedTexture2D::3973192024279155014::1747610448::1747610761::1::::<><><>0<>0<>66a3dca8b270d4fc4a1668e7bffcf4e3<>res://.godot/imported/Fruits (16 x 16).png-f761473d62bb13c6e92e4d6b5c3962aa.ctex::
+Grilled_Panini (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8317163490523114175::1747610448::1747610761::1::::<><><>0<>0<>dd99bf700c76002748a6410cc2954513<>res://.godot/imported/Grilled_Panini (16 x 16).png-9af0e220e1c7bd13e34a33441b83bee1.ctex::
+Ice_Cream_Cones (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6242469034866595631::1747610448::1747610761::1::::<><><>0<>0<>449da281dd0e974f712fd6210c50acb2<>res://.godot/imported/Ice_Cream_Cones (16 x 16).png-63d647ed9d2a94e2afb3a0366f0c5ce5.ctex::
+Milk_Cartons (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5505220838106059751::1747610448::1747610761::1::::<><><>0<>0<>885969c7bcd0aa4c47720d223c18f279<>res://.godot/imported/Milk_Cartons (16 x 16).png-0d4173395a710e4e709a344021b8060e.ctex::
+Pancake_Stack (16 x 16).png::CompressedTexture2D/CompressedTexture2D::9202681158820620112::1747610448::1747610761::1::::<><><>0<>0<>4faac447bd26f3bb7ac18331beb719fb<>res://.godot/imported/Pancake_Stack (16 x 16).png-a6c290da54ec0b9541f23c53d8248804.ctex::
+Salad_Bowl (16 x 16).png::CompressedTexture2D/CompressedTexture2D::1268841897418014397::1747610448::1747610761::1::::<><><>0<>0<>d2469eda91cbb4b94f82f54f2986c0b0<>res://.godot/imported/Salad_Bowl (16 x 16).png-954b5beae6f5175800852ca067364577.ctex::
+Sushi_Variety (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7624356687451492346::1747610448::1747610761::1::::<><><>0<>0<>8f67a4db494344ae23cae9a93ccdbcca<>res://.godot/imported/Sushi_Variety (16 x 16).png-9119ccf1e21baa95ba3db3de84124813.ctex::
+Wrapped_Candies (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8110065804923599608::1747610448::1747610761::1::::<><><>0<>0<>a40f77a26a55e098c506aa3d759dd902<>res://.godot/imported/Wrapped_Candies (16 x 16).png-602b8416bc5253cda1ae28a503c92522.ctex::
+::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/::1747610761
+Health_Indicator_Black_Outline (8 x 8).png::CompressedTexture2D/CompressedTexture2D::383295407865256946::1747610448::1747610761::1::::<><><>0<>0<>b1583bdc048ad21c5a4921eb87d22393<>res://.godot/imported/Health_Indicator_Black_Outline (8 x 8).png-4205d5ab2c19001398020f98297666d8.ctex::
+Health_Indicator_White_Outline (8 x 8).png::CompressedTexture2D/CompressedTexture2D::4867521900495209907::1747610448::1747610761::1::::<><><>0<>0<>b778b7fb9ea668a2eec6f1b4841639e0<>res://.godot/imported/Health_Indicator_White_Outline (8 x 8).png-d5c6544c766df1e2036e721b007fa328.ctex::
+Mouse_Icons_Outlined (16 x 16).png::CompressedTexture2D/CompressedTexture2D::491507176793382042::1747610448::1747610761::1::::<><><>0<>0<>87a75095e1291e9c05a01bdd096d92f6<>res://.godot/imported/Mouse_Icons_Outlined (16 x 16).png-32e4b3d71b3d8c197bb3a23570230335.ctex::
+Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2343356476891547251::1747610448::1747610761::1::::<><><>0<>0<>c7b1aed73797af614107b405ff2c8a74<>res://.godot/imported/Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png-0a1ee45508acaeb63baced6fd09fae4c.ctex::
+Speech_Emotes (16 x 16).png::CompressedTexture2D/CompressedTexture2D::790654645537224066::1747610448::1747610761::1::::<><><>0<>0<>ea14a1261e9f7ec4ee60fc28f5dc8c9b<>res://.godot/imported/Speech_Emotes (16 x 16).png-2bad9a1df7ab4f9eba937af09e8e653e.ctex::
+Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D/CompressedTexture2D::1910051612974175122::1747610448::1747610761::1::::<><><>0<>0<>4de0ee9fdfe1c7dd5f9059a045691767<>res://.godot/imported/Timer_Coin_Numbers_Drop-shadowed (8 x 8).png-aae9763690261ff68fabee31b5a4f46b.ctex::
+Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D/CompressedTexture2D::7275058346423185821::1747610448::1747610761::1::::<><><>0<>0<>88df0645aba3fd6c31465fae243f9eec<>res://.godot/imported/Timer_Coin_Numbers_Outlined (8 x 8).png-b97acb19f78d71b8ccf90beba23ce6cd.ctex::
+::res://assets/Mini Pixel Pack 3/::1747610448
+::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/::1747610761
+LICENSE.txt::TextFile/TextFile::-1::1747610448::0::1::::<><><>0<>0<><>::
+Space_BG (2 frames) (64 x 64).png::CompressedTexture2D/CompressedTexture2D::4903969603241197060::1747610448::1747610761::1::::<><><>0<>0<>dfc29f380b73098ec66dea0ab95f9397<>res://.godot/imported/Space_BG (2 frames) (64 x 64).png-1f68ecc5ea936c6447d3bc42a7cb0997.ctex::
+::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Effects/::1747610761
+Explosion (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2014240624730491525::1747610448::1747610761::1::::<><><>0<>0<>9b45166c6e067d69d2725c6cb478dc13<>res://.godot/imported/Explosion (16 x 16).png-a21ba930b5a229e1c571aaf27610cdec.ctex::
+Sparkle (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4760787885058905769::1747610448::1747610761::1::::<><><>0<>0<>bdd72039b87c3e9123b7210c11dda08a<>res://.godot/imported/Sparkle (16 x 16).png-b3412c6fff42c08894bdaaff477e2ad9.ctex::
+::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/::1747610761
+Alan (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7195377241745942249::1747610448::1747610761::1::::<><><>0<>0<>436e17138b39592a4106b93771403ca8<>res://.godot/imported/Alan (16 x 16).png-29475cfe4abfc478b29bc2212cef44f9.ctex::
+Bon_Bon (16 x 16).png::CompressedTexture2D/CompressedTexture2D::109503663085865662::1747610448::1747610761::1::::<><><>0<>0<>f0468622b25d4c91bb1e6fe79913635e<>res://.godot/imported/Bon_Bon (16 x 16).png-18a973e5aa185fb0db4477beefe7d7d1.ctex::
+Lips (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7223797466884351232::1747610448::1747610761::1::::<><><>0<>0<>9378dbd109a41fca490e8a2fafc42e8a<>res://.godot/imported/Lips (16 x 16).png-a73f4decbd7b3e7a271992b721ae10ff.ctex::
+::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Items/::1747610761
+Circle_+_Square_+_Missile_pick-ups (16 x 16).png::CompressedTexture2D/CompressedTexture2D::4887183590639572849::1747610448::1747610761::1::::<><><>0<>0<>c2531d7852962bde9e75647a89c1864e<>res://.godot/imported/Circle_+_Square_+_Missile_pick-ups (16 x 16).png-e9a183e66ad97f2d6bd8da78d5d2ba77.ctex::
+Power_item (16 x 16).png::CompressedTexture2D/CompressedTexture2D::715021566851918908::1747610448::1747610761::1::::<><><>0<>0<>021d6452f5780021e36687bc8f65ed31<>res://.godot/imported/Power_item (16 x 16).png-bb459326a6c2401e2436688e25b632a7.ctex::
+::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/::1747610761
+Boosters (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8950928241188109498::1747610448::1747610761::1::::<><><>0<>0<>81b8778fbf324c2a3b814db205b6273a<>res://.godot/imported/Boosters (16 x 16).png-5c541737373179200abad687666808eb.ctex::
+Boosters_left (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6418259132479595033::1747610448::1747610761::1::::<><><>0<>0<>68395b14239e3382fa1d48dcfeaaab04<>res://.godot/imported/Boosters_left (16 x 16).png-806a45dc62c1aafe050b3114cb3bc350.ctex::
+Boosters_right (16 x 16).png::CompressedTexture2D/CompressedTexture2D::9209403759808416745::1747610448::1747610761::1::::<><><>0<>0<>226079f3c636fcf4d91767e941f3d965<>res://.godot/imported/Boosters_right (16 x 16).png-3541d682cb420e549c7d89cd8e69a219.ctex::
+Player_ship (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6268240343025827486::1747610448::1747610761::1::::<><><>0<>0<>d242b8caa0d106289dc50208a40eb764<>res://.godot/imported/Player_ship (16 x 16).png-2e3ea85da724b6e7e9adaf9da58ca80e.ctex::
+::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Projectiles/::1747610761
+Enemy_projectile (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2732411846033237800::1747610448::1747610761::1::::<><><>0<>0<>b555dcadc9bf100edda271de5c04e5a2<>res://.godot/imported/Enemy_projectile (16 x 16).png-c1de57ec77b0ced223d59dda92c6b104.ctex::
+player_beam1.png::CompressedTexture2D/CompressedTexture2D::3870182395500851647::1747610448::1747610761::1::::<><><>0<>0<>ce31f36047a58ad8028a8e141dac272a<>res://.godot/imported/player_beam1.png-7ab2845d30f264ddbc55384feeb98860.ctex::
+Player_beam (16 x 16).png::CompressedTexture2D/CompressedTexture2D::766946363019313579::1747610448::1747610761::1::::<><><>0<>0<>b964d48c9d82377ad080480238e3610e<>res://.godot/imported/Player_beam (16 x 16).png-a453d35f8b5f0867d479e3586240ed70.ctex::
+Player_charged_beam (16 x 16).png::CompressedTexture2D/CompressedTexture2D::2023386496279594634::1747610448::1747610761::1::::<><><>0<>0<>5021267fd6deffbcf63344800a626959<>res://.godot/imported/Player_charged_beam (16 x 16).png-f2c7004eca267d91880417e6b7e749d3.ctex::
+Player_charged_donut_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::7864929159787848360::1747610448::1747610761::1::::<><><>0<>0<>7915565800abdcafede796580cda1295<>res://.godot/imported/Player_charged_donut_shot (16 x 16).png-6787d316909d70bd8c1887d43c97afca.ctex::
+Player_charged_square_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::8036436604678539137::1747610448::1747610761::1::::<><><>0<>0<>c1b6ee1b26c2457d6c34fbea36ecdd0e<>res://.godot/imported/Player_charged_square_shot (16 x 16).png-6718e285c2faabe565129464e1f43330.ctex::
+Player_donut_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::6199567686655454016::1747610448::1747610761::1::::<><><>0<>0<>eed5084deb35719e5c8777b31129a106<>res://.godot/imported/Player_donut_shot (16 x 16).png-9cf94747c599850cfcca28fc496e9d5a.ctex::
+Player_missile_shots (16 x 16).png::CompressedTexture2D/CompressedTexture2D::576711202117764299::1747610448::1747610761::1::::<><><>0<>0<>e16726ccc93a29038223178ac33572b0<>res://.godot/imported/Player_missile_shots (16 x 16).png-e669906af3a0a32babedadf80c403c40.ctex::
+Player_square_shot (16 x 16).png::CompressedTexture2D/CompressedTexture2D::703609993216130476::1747610448::1747610761::1::::<><><>0<>0<>fea555779e2d3e20347741f6c170aa25<>res://.godot/imported/Player_square_shot (16 x 16).png-1d4843cebb9218a354e2b3daaa1a4b73.ctex::
+::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/UI objects/::1747610761
+GAME_OVER (72 x 8).png::CompressedTexture2D/CompressedTexture2D::33730660078724569::1747610448::1747610761::1::::<><><>0<>0<>30eac1bcde72703696545aee9a164bbf<>res://.godot/imported/GAME_OVER (72 x 8).png-530ec8907797ff183230e5a0125bc966.ctex::
+Item_held_box (16 x 16).png::CompressedTexture2D/CompressedTexture2D::1789779296921215315::1747610448::1747610761::1::::<><><>0<>0<>29b72e58bab09ebce95c7952866b3b8c<>res://.godot/imported/Item_held_box (16 x 16).png-b42753ca9bec85d078037741c8e26bba.ctex::
+Number_font (8 x 8).png::CompressedTexture2D/CompressedTexture2D::5385963862716487586::1747610448::1747610761::1::::<><><>0<>0<>79ed853f7ff0a87b0b3dd9a86fa615ba<>res://.godot/imported/Number_font (8 x 8).png-38a8f063a31ef11f4704dd1ec7387190.ctex::
+Player_life_icon (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5507969010922989916::1747610448::1747610761::1::::<><><>0<>0<>64e7ee638ba08d72a1b74d1e1d32b3d5<>res://.godot/imported/Player_life_icon (16 x 16).png-d4b8bdcf2480d6b64bcdfa50cf4945eb.ctex::
+Power_+_charge_bars (full + empty) (32 x 16).png::CompressedTexture2D/CompressedTexture2D::7034425456006302495::1747610448::1747610761::1::::<><><>0<>0<>5e9e92eb69d1620e7d03d083f67b16b4<>res://.godot/imported/Power_+_charge_bars (full + empty) (32 x 16).png-0ec1f19065064cd0b0607882933a32a8.ctex::
+START (48 x 8).png::CompressedTexture2D/CompressedTexture2D::1177553451457783813::1747610448::1747610761::1::::<><><>0<>0<>b0779d68243ce1a52249e050ec27636e<>res://.godot/imported/START (48 x 8).png-bffe90ee798d8a454bbec7567f3c2ca3.ctex::
+::res://assets/sons/::1747746496
+laser-312360.mp3::AudioStreamMP3/AudioStreamMP3::3272399161744570397::1747610448::1747610761::1::::<><><>0<>0<>61e5ce84fb2c68178c833024690deaf1<>res://.godot/imported/laser-312360.mp3-dffdaa37479e4fc3a509df2d295837fa.mp3str::
+medium-explosion-40472.mp3::AudioStreamMP3/AudioStreamMP3::7248325776940985048::1747610448::1747610761::1::::<><><>0<>0<>607adb5ddca7ee714eff9e66130da3bd<>res://.godot/imported/medium-explosion-40472.mp3-c504e7a65efcd386fd8d747492549f26.mp3str::
+mixkit-boss-fight-arcade-232.mp3::AudioStreamMP3::2372328169400665230::1747738411::1747746413::1::::<><><>0<>0<>0046981c9fbff0f386ca0186d914a288<>res://.godot/imported/mixkit-boss-fight-arcade-232.mp3-46d4029d64c138a35b13230d770a2de5.mp3str::
+mixkit-boss-fight-arcade-232.wav::AudioStreamWAV::8336330260724516868::1747738016::1747746520::1::::<><><>0<>0<>f2750754db61d859cf24299a4fac9fdb<>res://.godot/imported/mixkit-boss-fight-arcade-232.wav-989407d511dd9bffdeb191da8dacc4f5.sample::
+::res://levels/::1747746462
+Fire.tscn::PackedScene/PackedScene::8437941877711125856::1747610448::0::1::::<><><>0<>0<><>::uid://c4nrkkw5el5vh::::res://scripts/projectiles/fire.gd<>uid://bve0lro38fmkd::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Projectiles/player_beam1.png<>uid://bmvf63edlxim4::::res://assets/sons/laser-312360.mp3
+world_01.tscn::PackedScene::8415389301673380305::1747746462::0::1::::<><><>0<>0<><>::uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://b3r4nf12p08ib::::res://scripts/player.gd<>uid://5ourqoic6n4o::::res://assets/Cave Tileset/Cave Tileset/_Complete_static_BG_(288 x 208).png<>uid://uyflg1sr32mu::::res://assets/Cave Tileset/Cave Tileset/Gray_Tile_Terrain (16 x 16).png<>uid://dbje4py8nm3eq::::res://assets/sons/medium-explosion-40472.mp3<>uid://hhw0i18wwm5x::::res://scripts/path_2d_enemies_caster.gd<>uid://c6mki17nw3p0c::::res://assets/BebasNeue-Regular.ttf<>uid://bscg4tv8usemr::::res://levels/game_over/game_over.gd<>uid://fpw24goemi8q::::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png
+::res://levels/enemies/::1747614859
+alan(16x_16).tscn::PackedScene/PackedScene::919035787068011976::1747614859::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://darq2utpvbf4d::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Alan (16 x 16).png<>uid://vvpfrle5kwe4::::res://animations/death_anim.res
+bonbon.tscn::PackedScene/PackedScene::7854758856453323428::1747610448::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://btbrk12e1g27::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Bon_Bon (16 x 16).png
+lips.tscn::PackedScene/PackedScene::7287047990346259000::1747610448::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://da6i5hsenwgg3::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Lips (16 x 16).png
+::res://levels/game_over/::1747610448
+game_over.gd::GDScript/GDScript::3654365746576997993::1747610448::0::1::::<>ColorRect<><>0<>0<><>::
+::res://menus/::1747734795
+::res://menus/main_menu/::1747746462
+main_menu.tscn::PackedScene::5383959620679641034::1747746462::0::1::::<><><>0<>0<><>::uid://lun3uqjhmlib::::res://scripts/menus/main_menu/main_menu.gd<>uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://cbq1m0lx0y826::::res://assets/bgparalax/Stars-Big_1_2_PC.png<>uid://cegulrq8wt5ct::::res://assets/bgparalax/Nebula Blue.png<>uid://t3vl80sdwm8r::::res://themes/main_menu.tres<>uid://82f5sqxrcqrm::::res://assets/sons/mixkit-boss-fight-arcade-232.mp3<>uid://s2dhd4ur5lvf::::res://menus/settings_menu/settings_menu.tscn
+::res://menus/settings_menu/::1747746462
+settings_menu.tscn::PackedScene::1319332239681827771::1747746462::0::1::::<><><>0<>0<><>::uid://ubnf2rodb5m::::res://scripts/menus/settings_menu/settings_menu.gd<>uid://t3vl80sdwm8r::::res://themes/main_menu.tres
+::res://resources/::1747746151
+save_settings.tres::Resource/SaveFile::1989262651554473752::1747738572::0::1::::<><><>0<>0<><>::uid://pagjgsnffmy4::::res://resources/save_serttings.gd
+save_serttings.gd::GDScript::1053213372216362389::1747746151::0::1::::SaveFile<>Resource<><>0<>0<><>::
+::res://scripts/::1747734745
+path_2d_enemies_caster.gd::GDScript::507153430314493683::1747734745::0::1::::<>Path2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::4388587039517503149::1747700611::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/bg_paralax/::1747716877
+::res://scripts/enemies/::1747610448
+alan(16x_16).gd::GDScript/GDScript::5915796482800930475::1747610448::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/menus/::1747735775
+::res://scripts/menus/main_menu/::1747746192
+main_menu.gd::GDScript::814205233837484205::1747746192::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/menus/settings_menu/::1747746365
+settings_menu.gd::GDScript::41371792512426596::1747746365::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/projectiles/::1747610448
+fire.gd::GDScript/GDScript::6836205351096071585::1747610448::0::1::::<>Node2D<><>0<>0<><>::
+::res://themes/::1747735521
+main_menu.tres::Theme::1392687079530730115::1747735521::0::1::::<><><>0<>0<><>::uid://c6mki17nw3p0c::::res://assets/BebasNeue-Regular.ttf

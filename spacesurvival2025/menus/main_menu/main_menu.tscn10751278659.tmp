@@ -1,0 +1,244 @@
+[gd_scene load_steps=16 format=3 uid="uid://ciyba71ed3ha5"]
+
+[ext_resource type="Script" uid="uid://lun3uqjhmlib" path="res://scripts/menus/main_menu/main_menu.gd" id="1_xbn2l"]
+[ext_resource type="Texture2D" uid="uid://cvknadcc720qc" path="res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png" id="2_1nwmw"]
+[ext_resource type="FontFile" uid="uid://c6mki17nw3p0c" path="res://assets/BebasNeue-Regular.ttf" id="3_vu5tu"]
+
+[sub_resource type="Sky" id="Sky_yso3o"]
+
+[sub_resource type="Environment" id="Environment_vu5tu"]
+background_mode = 3
+sky = SubResource("Sky_yso3o")
+ambient_light_source = 3
+ambient_light_color = Color(0.614448, 0.436919, 0.659209, 1)
+reflected_light_source = 2
+glow_enabled = true
+glow_intensity = 0.58
+glow_bloom = 1.0
+glow_hdr_luminance_cap = 179.07
+
+[sub_resource type="Animation" id="Animation_1nwmw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 65.335)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("..:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(281, 176)]
+}
+
+[sub_resource type="Animation" id="Animation_ml8bw"]
+resource_name = "menu_ship_idle_anim"
+length = 1.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.3),
+"transitions": PackedFloat32Array(1, 2.07053, 1),
+"update": 0,
+"values": [Vector2(0, 65.335), Vector2(0, -11.235), Vector2(0, -6.89)]
+}
+
+[sub_resource type="Animation" id="Animation_vu5tu"]
+resource_name = "menu_ship_idle_anim_2"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.733333, 1.46667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -6.89), Vector2(0, -9.37), Vector2(0, -6.89)]
+}
+
+[sub_resource type="Animation" id="Animation_oic2i"]
+resource_name = "ship_go_out_screen_anim"
+length = 1.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.304631),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(281, 176), Vector2(281, 186.59)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oic2i"]
+_data = {
+&"RESET": SubResource("Animation_1nwmw"),
+&"menu_ship_idle_anim": SubResource("Animation_ml8bw"),
+&"menu_ship_idle_anim_2": SubResource("Animation_vu5tu"),
+&"ship_go_out_screen_anim": SubResource("Animation_oic2i")
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ml8bw"]
+bg_color = Color(0.782004, 0.182027, 0.559219, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oic2i"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_er5qh"]
+bg_color = Color(0.403122, 0.141034, 0.161128, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f7ts8"]
+bg_color = Color(0.403922, 0.141176, 0.160784, 1)
+
+[sub_resource type="Theme" id="Theme_81su3"]
+Button/colors/font_color = Color(0.88, 0.1496, 0.1496, 1)
+Button/colors/font_focus_color = Color(0.95, 0.342, 0.342, 1)
+Button/colors/font_hover_color = Color(0.95, 0.8455, 0.8455, 1)
+Button/colors/font_hover_pressed_color = Color(0.94902, 0.701961, 0.701961, 1)
+Button/colors/font_outline_color = Color(0.14, 0.14, 0.14, 1)
+Button/colors/font_pressed_color = Color(0.94902, 0.701961, 0.701961, 1)
+Button/font_sizes/font_size = 16
+Button/fonts/font = ExtResource("3_vu5tu")
+Button/styles/focus = SubResource("StyleBoxFlat_ml8bw")
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_oic2i")
+Button/styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_oic2i")
+Button/styles/pressed = SubResource("StyleBoxFlat_er5qh")
+Button/styles/pressed_mirrored = SubResource("StyleBoxFlat_f7ts8")
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xbn2l")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_vu5tu")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ColorRect2" type="ColorRect" parent="Node2D"]
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 414.0
+offset_top = -21.0
+offset_right = 624.0
+offset_bottom = 388.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 8
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect" type="ColorRect" parent="Node2D"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -47.0
+offset_top = -32.0
+offset_right = 140.0
+offset_bottom = 377.0
+grow_vertical = 2
+size_flags_horizontal = 0
+color = Color(0, 0, 0, 1)
+
+[node name="Player" type="Node2D" parent="."]
+position = Vector2(281, 176)
+scale = Vector2(7.25, 7.25)
+
+[node name="PlayerShip(16X16)" type="Sprite2D" parent="Player"]
+texture = ExtResource("2_1nwmw")
+offset = Vector2(0, 65.335)
+hframes = 3
+frame = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player/PlayerShip(16X16)"]
+libraries = {
+&"": SubResource("AnimationLibrary_oic2i")
+}
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ControlButtons" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/ControlButtons"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -55.0
+offset_top = -134.0
+offset_right = 55.0
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 1
+
+[node name="ButtonNew" type="Button" parent="CanvasLayer/ControlButtons/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_81su3")
+text = "New game"
+
+[node name="ButtonContinue" type="Button" parent="CanvasLayer/ControlButtons/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_81su3")
+text = "Continue"
+
+[node name="ButtonSettings" type="Button" parent="CanvasLayer/ControlButtons/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_81su3")
+text = "Settings"
+
+[node name="ButtonExit" type="Button" parent="CanvasLayer/ControlButtons/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_81su3")
+text = "Exit"
+
+[connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonNew" to="." method="_on_button_new_pressed"]
+[connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonContinue" to="." method="_on_button_continue_pressed"]
+[connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonSettings" to="." method="_on_button_settings_pressed"]
+[connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonExit" to="." method="_on_button_exit_pressed"]

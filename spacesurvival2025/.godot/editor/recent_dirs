@@ -1,3 +1,9 @@
+res://
+res://resources
+res://scripts/menus/settings_menu
+res://themes
+res://menus/main_menu
+res://scripts/menus/main_menu
 res://animations
 res://levels/game_over
 res://scripts/projectiles
@@ -7,4 +13,3 @@ res://levels/enemies
 res://assets/Cave Tileset/Cave Tileset
 res://levels
 res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship
-res://

@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://dr5qh5sd5thr2"]
+[gd_scene load_steps=28 format=4 uid="uid://dr5qh5sd5thr2"]
 
 [ext_resource type="Texture2D" uid="uid://cvknadcc720qc" path="res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png" id="1_5t0fn"]
 [ext_resource type="Script" uid="uid://b3r4nf12p08ib" path="res://scripts/player.gd" id="1_dtykb"]
@@ -10,11 +10,11 @@
 [ext_resource type="Script" uid="uid://bscg4tv8usemr" path="res://levels/game_over/game_over.gd" id="7_or7x1"]
 [ext_resource type="Texture2D" uid="uid://fpw24goemi8q" path="res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png" id="7_yso3o"]
 
-[sub_resource type="Sky" id="Sky_fwd2m"]
+[sub_resource type="Sky" id="Sky_yso3o"]
 
 [sub_resource type="Environment" id="Environment_fwd2m"]
 background_mode = 3
-sky = SubResource("Sky_fwd2m")
+sky = SubResource("Sky_yso3o")
 ambient_light_source = 3
 ambient_light_color = Color(0.614448, 0.436919, 0.659209, 1)
 reflected_light_source = 2
@@ -23,7 +23,7 @@ glow_intensity = 0.58
 glow_bloom = 1.0
 glow_hdr_luminance_cap = 179.07
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_naeyk"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yso3o"]
 texture = ExtResource("1_wu64i")
 0:0/0 = 0
 1:0/0 = 0
@@ -260,7 +260,7 @@ texture = ExtResource("1_wu64i")
 16:12/0 = 0
 17:12/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o58wf"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tii1u"]
 texture = ExtResource("2_naeyk")
 1:1/0 = 0
 2:1/0 = 0
@@ -428,8 +428,8 @@ texture = ExtResource("2_naeyk")
 
 [sub_resource type="TileSet" id="TileSet_o58wf"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_naeyk")
-sources/1 = SubResource("TileSetAtlasSource_o58wf")
+sources/0 = SubResource("TileSetAtlasSource_yso3o")
+sources/1 = SubResource("TileSetAtlasSource_tii1u")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_58wi8"]
 atlas = ExtResource("1_5t0fn")
@@ -462,6 +462,43 @@ animations = [{
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_naeyk"]
 size = Vector2(14.9613, 15.0592)
+
+[sub_resource type="Animation" id="Animation_tii1u"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_yso3o"]
+resource_name = "death_player_anim"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5, 0.75, 1, 1.26667, 1.5, 1.75, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.72, 0.1152, 0.1152, 1), Color(1, 1, 1, 1), Color(0.72, 0.1152, 0.1152, 1), Color(1, 1, 1, 1), Color(0.72, 0.1152, 0.1152, 1), Color(1, 1, 1, 1), Color(0.72, 0.1152, 0.1152, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0heyt"]
+_data = {
+&"RESET": SubResource("Animation_tii1u"),
+&"death_player_anim": SubResource("Animation_yso3o")
+}
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o58wf"]
 size = Vector2(556.5, 20)
@@ -545,8 +582,12 @@ one_shot = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="player"]
 stream = ExtResource("5_fwd2m")
+bus = &"SoundEffect"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="player"]
+libraries = {
+&"": SubResource("AnimationLibrary_0heyt")
+}
 
 [node name="Area2DPlayer" type="Area2D" parent="player"]
 

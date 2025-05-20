@@ -1,0 +1,46 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://t3vl80sdwm8r"]
+
+[ext_resource type="FontFile" uid="uid://c6mki17nw3p0c" path="res://assets/BebasNeue-Regular.ttf" id="1_djdlk"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ml8bw"]
+bg_color = Color(0.782004, 0.182027, 0.559219, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oic2i"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_er5qh"]
+bg_color = Color(0.403122, 0.141034, 0.161128, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f7ts8"]
+bg_color = Color(0.403922, 0.141176, 0.160784, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_djdlk"]
+bg_color = Color(0.676785, 0.27136, 0.29894, 1)
+border_color = Color(0, 0, 0, 1)
+
+[resource]
+Button/colors/font_color = Color(0.88, 0.1496, 0.1496, 1)
+Button/colors/font_focus_color = Color(0.95, 0.342, 0.342, 1)
+Button/colors/font_hover_color = Color(0.95, 0.8455, 0.8455, 1)
+Button/colors/font_hover_pressed_color = Color(0.94902, 0.701961, 0.701961, 1)
+Button/colors/font_outline_color = Color(0.14, 0.14, 0.14, 1)
+Button/colors/font_pressed_color = Color(0.94902, 0.701961, 0.701961, 1)
+Button/font_sizes/font_size = 16
+Button/fonts/font = ExtResource("1_djdlk")
+Button/styles/focus = SubResource("StyleBoxFlat_ml8bw")
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_oic2i")
+Button/styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_oic2i")
+Button/styles/pressed = SubResource("StyleBoxFlat_er5qh")
+Button/styles/pressed_mirrored = SubResource("StyleBoxFlat_f7ts8")
+Label/font_sizes/font_size = 22
+Label/fonts/font = ExtResource("1_djdlk")
+Label/styles/normal = SubResource("StyleBoxFlat_djdlk")

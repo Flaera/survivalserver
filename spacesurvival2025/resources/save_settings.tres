@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="SaveFile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://resources/save_serttings.gd" id="1_ctjvo"]
+
+[resource]
+script = ExtResource("1_ctjvo")
+global_volume_music = -31.3
+global_volume_sound_effect = -14.6
