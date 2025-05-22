@@ -1,0 +1,118 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8a513de0xnsj"]
+
+[ext_resource type="Script" uid="uid://x6m6ivkcbho1" path="res://scripts/menus/main_menu/new_game_slots/select_save_slot.gd" id="1_4qu6i"]
+[ext_resource type="Theme" uid="uid://t3vl80sdwm8r" path="res://themes/main_menu.tres" id="1_slx7p"]
+
+[node name="SelectSaveSlot" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4qu6i")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.772549)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -154.0
+offset_top = -166.5
+offset_right = 154.0
+offset_bottom = 166.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_slx7p")
+text = "Select the slot save game:"
+
+[node name="HBoxContainerButtons" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonSlot1" type="Button" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer"]
+custom_minimum_size = Vector2(100, 200)
+layout_mode = 2
+theme = ExtResource("1_slx7p")
+text = "SLOT 1"
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_slx7p")
+text = "Player name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonSlot2" type="Button" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2"]
+custom_minimum_size = Vector2(100, 200)
+layout_mode = 2
+theme = ExtResource("1_slx7p")
+text = "SLOT 2"
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("1_slx7p")
+text = "Player name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonSlot3" type="Button" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3"]
+custom_minimum_size = Vector2(100, 200)
+layout_mode = 2
+theme = ExtResource("1_slx7p")
+text = "SLOT 3"
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3"]
+layout_mode = 2
+theme = ExtResource("1_slx7p")
+text = "Player name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonBack" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("1_slx7p")
+theme_override_font_sizes/font_size = 45
+text = "Back"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1" to="." method="_on_button_slot_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2" to="." method="_on_button_slot_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3" to="." method="_on_button_slot_3_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/ButtonBack" to="." method="_on_button_back_pressed"]

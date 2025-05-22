@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=7 format=3 uid="uid://t3vl80sdwm8r"]
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://t3vl80sdwm8r"]
 
 [ext_resource type="FontFile" uid="uid://c6mki17nw3p0c" path="res://assets/BebasNeue-Regular.ttf" id="1_djdlk"]
 
@@ -27,6 +27,9 @@ bg_color = Color(0.403922, 0.141176, 0.160784, 1)
 bg_color = Color(0.676785, 0.27136, 0.29894, 1)
 border_color = Color(0, 0, 0, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_va2tg"]
+bg_color = Color(0.202721, 0.0123891, 0.133105, 1)
+
 [resource]
 Button/colors/font_color = Color(0.88, 0.1496, 0.1496, 1)
 Button/colors/font_focus_color = Color(0.95, 0.342, 0.342, 1)
@@ -44,3 +47,7 @@ Button/styles/pressed_mirrored = SubResource("StyleBoxFlat_f7ts8")
 Label/font_sizes/font_size = 22
 Label/fonts/font = ExtResource("1_djdlk")
 Label/styles/normal = SubResource("StyleBoxFlat_djdlk")
+LineEdit/colors/font_color = Color(0.878431, 0.14902, 0.14902, 1)
+LineEdit/font_sizes/font_size = 44
+LineEdit/fonts/font = ExtResource("1_djdlk")
+LineEdit/styles/focus = SubResource("StyleBoxFlat_va2tg")

@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=3 uid="uid://sogb45bm4dlc"]
+
+[ext_resource type="Script" uid="uid://b7p5o0gun5n48" path="res://scripts/menus/main_menu/digit_your_name/digit_your_name.gd" id="1_fhjp4"]
+[ext_resource type="Theme" uid="uid://t3vl80sdwm8r" path="res://themes/main_menu.tres" id="2_fddda"]
+
+[node name="NewGameName" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fhjp4")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.772549)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -174.0
+offset_top = -31.0
+offset_right = 174.0
+offset_bottom = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_fddda")
+text = "Enter your name:"
+
+[node name="LineEditName" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_fddda")
+alignment = 1
+max_length = 16
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonNext" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("2_fddda")
+theme_override_font_sizes/font_size = 45
+text = "Next"
+
+[connection signal="editing_toggled" from="VBoxContainer/LineEditName" to="." method="_on_line_edit_name_editing_toggled"]
+[connection signal="pressed" from="VBoxContainer/ButtonNext" to="." method="_on_button_next_pressed"]

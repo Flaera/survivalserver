@@ -14,6 +14,8 @@ func _ready():
 	$"CanvasLayer/SettingsMenu/VBoxContainer/HSlider2".value = value_sound
 	AudioServer.set_bus_volume_db(1,value_music)
 	AudioServer.set_bus_volume_db(2,value_sound)
+	
+	$CanvasLayer/ControlButtons/VBoxContainer/ButtonNew.grab_focus()
 
 
 
@@ -21,12 +23,17 @@ func _process(delta: float) -> void:
 	if (steps_ship_end==0 and $"Player/PlayerShip(16X16)/AnimationPlayer".is_playing()==false):
 		$"Player/PlayerShip(16X16)/AnimationPlayer".play("menu_ship_idle_anim_2")
 	else:
-		if (steps_ship_end==1 and $"Player/PlayerShip(16X16)/AnimationPlayer".is_playing()==false):
+		if (steps_ship_end==1 and new_game==true
+		 and $"Player/PlayerShip(16X16)/AnimationPlayer".is_playing()==false):
 			steps_ship_end+=1
 			#NEW GAME
-			get_tree().change_scene_to_file("res://levels/world_01.tscn")
-		elif (steps_ship_end==1 and $"Player/PlayerShip(16X16)/AnimationPlayer".is_playing()==false):
+			var new_game_scene = load("res://menus/main_menu/select_save_slot.tscn")
+			var ng_instantiate = new_game_scene.instantiate()
+			$CanvasLayer.add_child(ng_instantiate)
+		elif (steps_ship_end==1 and continue_game==true
+		 and $"Player/PlayerShip(16X16)/AnimationPlayer".is_playing()==false):
 			steps_ship_end+=1
+			print("CONTINUE!!")
 			#CONTINUE GAME
 
 
@@ -51,7 +58,7 @@ func _on_button_continue_pressed() -> void:
 	if (steps_ship_end==0):
 		continue_game=true
 		steps_ship_end+=1
-	$"Player/PlayerShip(16X16)/AnimationPlayer".stop(true)
+	#$"Player/PlayerShip(16X16)/AnimationPlayer".stop(true)
 	ship_run_out_screen()
 
 

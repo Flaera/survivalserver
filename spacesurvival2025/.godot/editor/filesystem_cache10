@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747746169
+::res://::1747903036
+default_bus_layout.tres::AudioBusLayout/AudioBusLayout::3231643485303968429::1747747819::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::785200777629022410::1747610448::1747610761::1::::<><><>0<>0<>f4e21bf653403291b84323735d8aa730<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-default_bus_layout.tres::AudioBusLayout::3231643485303968429::1747746169::0::1::::<><><>0<>0<><>::
 world_01.tscn::PackedScene/PackedScene::1295948075618437980::1747610448::0::1::::<><><>0<>0<><>::uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png
 ::res://animations/::1747610448
 death_anim.res::Animation/Animation::1518238243207008237::1747610448::0::1::::<><><>0<>0<><>::
@@ -96,14 +96,13 @@ Number_font (8 x 8).png::CompressedTexture2D/CompressedTexture2D::53859638627164
 Player_life_icon (16 x 16).png::CompressedTexture2D/CompressedTexture2D::5507969010922989916::1747610448::1747610761::1::::<><><>0<>0<>64e7ee638ba08d72a1b74d1e1d32b3d5<>res://.godot/imported/Player_life_icon (16 x 16).png-d4b8bdcf2480d6b64bcdfa50cf4945eb.ctex::
 Power_+_charge_bars (full + empty) (32 x 16).png::CompressedTexture2D/CompressedTexture2D::7034425456006302495::1747610448::1747610761::1::::<><><>0<>0<>5e9e92eb69d1620e7d03d083f67b16b4<>res://.godot/imported/Power_+_charge_bars (full + empty) (32 x 16).png-0ec1f19065064cd0b0607882933a32a8.ctex::
 START (48 x 8).png::CompressedTexture2D/CompressedTexture2D::1177553451457783813::1747610448::1747610761::1::::<><><>0<>0<>b0779d68243ce1a52249e050ec27636e<>res://.godot/imported/START (48 x 8).png-bffe90ee798d8a454bbec7567f3c2ca3.ctex::
-::res://assets/sons/::1747746496
+::res://assets/sons/::1747746522
 laser-312360.mp3::AudioStreamMP3/AudioStreamMP3::3272399161744570397::1747610448::1747610761::1::::<><><>0<>0<>61e5ce84fb2c68178c833024690deaf1<>res://.godot/imported/laser-312360.mp3-dffdaa37479e4fc3a509df2d295837fa.mp3str::
 medium-explosion-40472.mp3::AudioStreamMP3/AudioStreamMP3::7248325776940985048::1747610448::1747610761::1::::<><><>0<>0<>607adb5ddca7ee714eff9e66130da3bd<>res://.godot/imported/medium-explosion-40472.mp3-c504e7a65efcd386fd8d747492549f26.mp3str::
-mixkit-boss-fight-arcade-232.mp3::AudioStreamMP3::2372328169400665230::1747738411::1747746413::1::::<><><>0<>0<>0046981c9fbff0f386ca0186d914a288<>res://.godot/imported/mixkit-boss-fight-arcade-232.mp3-46d4029d64c138a35b13230d770a2de5.mp3str::
-mixkit-boss-fight-arcade-232.wav::AudioStreamWAV::8336330260724516868::1747738016::1747746520::1::::<><><>0<>0<>f2750754db61d859cf24299a4fac9fdb<>res://.godot/imported/mixkit-boss-fight-arcade-232.wav-989407d511dd9bffdeb191da8dacc4f5.sample::
-::res://levels/::1747746462
+mixkit-boss-fight-arcade-232.mp3::AudioStreamMP3/AudioStreamMP3::2372328169400665230::1747738411::1747746413::1::::<><><>0<>0<>0046981c9fbff0f386ca0186d914a288<>res://.godot/imported/mixkit-boss-fight-arcade-232.mp3-46d4029d64c138a35b13230d770a2de5.mp3str::
+::res://levels/::1747748094
 Fire.tscn::PackedScene/PackedScene::8437941877711125856::1747610448::0::1::::<><><>0<>0<><>::uid://c4nrkkw5el5vh::::res://scripts/projectiles/fire.gd<>uid://bve0lro38fmkd::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Projectiles/player_beam1.png<>uid://bmvf63edlxim4::::res://assets/sons/laser-312360.mp3
-world_01.tscn::PackedScene::8415389301673380305::1747746462::0::1::::<><><>0<>0<><>::uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://b3r4nf12p08ib::::res://scripts/player.gd<>uid://5ourqoic6n4o::::res://assets/Cave Tileset/Cave Tileset/_Complete_static_BG_(288 x 208).png<>uid://uyflg1sr32mu::::res://assets/Cave Tileset/Cave Tileset/Gray_Tile_Terrain (16 x 16).png<>uid://dbje4py8nm3eq::::res://assets/sons/medium-explosion-40472.mp3<>uid://hhw0i18wwm5x::::res://scripts/path_2d_enemies_caster.gd<>uid://c6mki17nw3p0c::::res://assets/BebasNeue-Regular.ttf<>uid://bscg4tv8usemr::::res://levels/game_over/game_over.gd<>uid://fpw24goemi8q::::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png
+world_01.tscn::PackedScene/PackedScene::8415389301673380305::1747748094::0::1::::<><><>0<>0<><>::uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://b3r4nf12p08ib::::res://scripts/player.gd<>uid://5ourqoic6n4o::::res://assets/Cave Tileset/Cave Tileset/_Complete_static_BG_(288 x 208).png<>uid://uyflg1sr32mu::::res://assets/Cave Tileset/Cave Tileset/Gray_Tile_Terrain (16 x 16).png<>uid://dbje4py8nm3eq::::res://assets/sons/medium-explosion-40472.mp3<>uid://hhw0i18wwm5x::::res://scripts/path_2d_enemies_caster.gd<>uid://c6mki17nw3p0c::::res://assets/BebasNeue-Regular.ttf<>uid://bscg4tv8usemr::::res://levels/game_over/game_over.gd<>uid://fpw24goemi8q::::res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png
 ::res://levels/enemies/::1747614859
 alan(16x_16).tscn::PackedScene/PackedScene::919035787068011976::1747614859::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://darq2utpvbf4d::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Alan (16 x 16).png<>uid://vvpfrle5kwe4::::res://animations/death_anim.res
 bonbon.tscn::PackedScene/PackedScene::7854758856453323428::1747610448::0::1::::<><><>0<>0<><>::uid://cqjwklfdq5r36::::res://scripts/enemies/alan(16x_16).gd<>uid://btbrk12e1g27::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Enemies/Bon_Bon (16 x 16).png
@@ -111,25 +110,36 @@ lips.tscn::PackedScene/PackedScene::7287047990346259000::1747610448::0::1::::<><
 ::res://levels/game_over/::1747610448
 game_over.gd::GDScript/GDScript::3654365746576997993::1747610448::0::1::::<>ColorRect<><>0<>0<><>::
 ::res://menus/::1747734795
-::res://menus/main_menu/::1747746462
-main_menu.tscn::PackedScene::5383959620679641034::1747746462::0::1::::<><><>0<>0<><>::uid://lun3uqjhmlib::::res://scripts/menus/main_menu/main_menu.gd<>uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://cbq1m0lx0y826::::res://assets/bgparalax/Stars-Big_1_2_PC.png<>uid://cegulrq8wt5ct::::res://assets/bgparalax/Nebula Blue.png<>uid://t3vl80sdwm8r::::res://themes/main_menu.tres<>uid://82f5sqxrcqrm::::res://assets/sons/mixkit-boss-fight-arcade-232.mp3<>uid://s2dhd4ur5lvf::::res://menus/settings_menu/settings_menu.tscn
-::res://menus/settings_menu/::1747746462
-settings_menu.tscn::PackedScene::1319332239681827771::1747746462::0::1::::<><><>0<>0<><>::uid://ubnf2rodb5m::::res://scripts/menus/settings_menu/settings_menu.gd<>uid://t3vl80sdwm8r::::res://themes/main_menu.tres
-::res://resources/::1747746151
-save_settings.tres::Resource/SaveFile::1989262651554473752::1747738572::0::1::::<><><>0<>0<><>::uid://pagjgsnffmy4::::res://resources/save_serttings.gd
-save_serttings.gd::GDScript::1053213372216362389::1747746151::0::1::::SaveFile<>Resource<><>0<>0<><>::
-::res://scripts/::1747734745
-path_2d_enemies_caster.gd::GDScript::507153430314493683::1747734745::0::1::::<>Path2D<><>0<>0<><>::
+::res://menus/main_menu/::1747885292
+digit_your_name.tscn::PackedScene::1292668131375825228::1747885292::0::1::::<><><>0<>0<><>::uid://b7p5o0gun5n48::::res://scripts/menus/main_menu/digit_your_name/digit_your_name.gd<>uid://t3vl80sdwm8r::::res://themes/main_menu.tres
+main_menu.tscn::PackedScene::5383959620679641034::1747885292::0::1::::<><><>0<>0<><>::uid://lun3uqjhmlib::::res://scripts/menus/main_menu/main_menu.gd<>uid://cvknadcc720qc::::res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/Player ship/Player_ship (16 x 16).png<>uid://cbq1m0lx0y826::::res://assets/bgparalax/Stars-Big_1_2_PC.png<>uid://cegulrq8wt5ct::::res://assets/bgparalax/Nebula Blue.png<>uid://t3vl80sdwm8r::::res://themes/main_menu.tres<>uid://82f5sqxrcqrm::::res://assets/sons/mixkit-boss-fight-arcade-232.mp3<>uid://s2dhd4ur5lvf::::res://menus/settings_menu/settings_menu.tscn
+select_save_slot.tscn::PackedScene::7090942623370079017::1747885292::0::1::::<><><>0<>0<><>::
+warning_new_game.tscn::PackedScene::2028935842483302216::1747885292::0::1::::<><><>0<>0<><>::uid://t3vl80sdwm8r::::res://themes/main_menu.tres<>uid://cjmpnlx2am3rh::::res://scripts/menus/main_menu/warning_new_game/warning_new_game.gd
+::res://menus/settings_menu/::1747882838
+settings_menu.tscn::PackedScene::1319332239681827771::1747882838::0::1::::<><><>0<>0<><>::uid://ubnf2rodb5m::::res://scripts/menus/settings_menu/settings_menu.gd<>uid://t3vl80sdwm8r::::res://themes/main_menu.tres
+::res://resources/::1747884903
+game_save1.tres::Resource/SaveGame::6964829950238986991::1747874840::0::1::::<><><>0<>0<><>::uid://cipwa4eyl8k6b::::res://resources/game_save_template.gd
+game_save2.tres::Resource/SaveGame::3808395735386988203::1747877423::0::1::::<><><>0<>0<><>::uid://cipwa4eyl8k6b::::res://resources/game_save_template.gd
+game_save3.tres::Resource/SaveGame::3276384183880540148::1747877429::0::1::::<><><>0<>0<><>::uid://cipwa4eyl8k6b::::res://resources/game_save_template.gd
+game_save_template.gd::GDScript::5366655087105051391::1747874731::0::1::::SaveGame<>Resource<><>0<>0<><>::
+save_settings.gd::GDScript::1053213372216362389::1747876788::0::1::::SaveFile<>Resource<><>0<>0<><>::
+save_settings.tres::Resource/SaveFile::1550040545072010841::1747884903::0::1::::<><><>0<>0<><>::uid://pagjgsnffmy4::::res://resources/save_settings.gd
+::res://scripts/::1747874558
+path_2d_enemies_caster.gd::GDScript::507153430314493683::1747874558::0::1::::<>Path2D<><>0<>0<><>::
 player.gd::GDScript/GDScript::4388587039517503149::1747700611::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://scripts/bg_paralax/::1747716877
 ::res://scripts/enemies/::1747610448
 alan(16x_16).gd::GDScript/GDScript::5915796482800930475::1747610448::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/menus/::1747735775
-::res://scripts/menus/main_menu/::1747746192
-main_menu.gd::GDScript::814205233837484205::1747746192::0::1::::<>Control<><>0<>0<><>::
-::res://scripts/menus/settings_menu/::1747746365
-settings_menu.gd::GDScript::41371792512426596::1747746365::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/menus/main_menu/::1747884907
+main_menu.gd::GDScript::814205233837484205::1747884907::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/menus/main_menu/digit_your_name/::1747882276
+digit_your_name.gd::GDScript::4665277180598552559::1747882276::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/menus/main_menu/warning_new_game/::1747884865
+warning_new_game.gd::GDScript::5430248077904085689::1747884865::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/menus/settings_menu/::1747748126
+settings_menu.gd::GDScript/GDScript::41371792512426596::1747748126::0::1::::<>Control<><>0<>0<><>::
 ::res://scripts/projectiles/::1747610448
 fire.gd::GDScript/GDScript::6836205351096071585::1747610448::0::1::::<>Node2D<><>0<>0<><>::
-::res://themes/::1747735521
-main_menu.tres::Theme::1392687079530730115::1747735521::0::1::::<><><>0<>0<><>::uid://c6mki17nw3p0c::::res://assets/BebasNeue-Regular.ttf
+::res://themes/::1747874558
+main_menu.tres::Theme::1392687079530730115::1747874558::0::1::::<><><>0<>0<><>::uid://c6mki17nw3p0c::::res://assets/BebasNeue-Regular.ttf

@@ -1,5 +1,7 @@
-res://
+res://scripts/menus/main_menu/new_game_slots
+res://scripts/menus/main_menu/warning_new_game
 res://resources
+res://
 res://scripts/menus/settings_menu
 res://themes
 res://menus/main_menu
