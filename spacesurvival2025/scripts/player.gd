@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var score: int = 0
+@onready var score: int = 0
 @onready var fire: Object = preload("res://levels/Fire.tscn")
 @onready var max_cooldown: float = 0.2
 @onready var cooldown: float = max_cooldown
@@ -20,12 +20,18 @@ func _process(delta):
 		cooldown_hearts=max_hearts
 		invencible = false
 	if (hearts<=0):
-		get_parent().get_node("CanvasLayer/ColorRect").visible=true
+		get_parent().get_node("CanvasLayer/ColorRectDead").visible=true
 		get_tree().paused=true
+		
+	if (Input.is_action_just_pressed("ui_pause")):
+		get_tree().paused=true
+		var mother = get_parent()
+		mother.get_node("CanvasLayer/ColorRectPause").visible=true
+		
 
 
 func _physics_process(_delta: float) -> void:
-	if (Input.is_action_pressed("ui_accept") and $Timer.is_stopped()):
+	if (Input.is_action_pressed("ui_fire") and $Timer.is_stopped()):
 		$Timer.start(0.5)
 		var fire0 = fire.instantiate()
 		fire0.position = Vector2(position.x-3.39,position.y)
@@ -34,7 +40,9 @@ func _physics_process(_delta: float) -> void:
 		fire1.position = Vector2(position.x+3.39,position.y)
 		get_parent().get_node("Fires").add_child(fire1)
 	
-	get_parent().get_node("CanvasLayer/VBoxContainer/HBoxContainer2/Score").text=str(score)
+	var score2 = score-2
+	if (score==0): score2=score
+	get_parent().get_node("CanvasLayer/VBoxContainer/HBoxContainer2/Score").text=str(score2-2)
 	get_parent().get_node("CanvasLayer/VBoxContainer/HBoxContainer/Lifes").text=str(hearts)
 	
 	var directionY := Input.get_axis("ui_up", "ui_down")

@@ -189,18 +189,8 @@ color = Color(0.051971, 0.051971, 0.051971, 1)
 
 [node name="BGParalax" type="Node2D" parent="."]
 
-[node name="Parallax2DStars" type="Parallax2D" parent="BGParalax"]
-scroll_scale = Vector2(0.5, 0.5)
-repeat_size = Vector2(0, 1024)
-autoscroll = Vector2(0, -50)
-repeat_times = 3
-
-[node name="Sprite2D" type="Sprite2D" parent="BGParalax/Parallax2DStars"]
-scale = Vector2(0.25, 0.25)
-texture = ExtResource("2_ml8bw")
-centered = false
-
 [node name="Parallax2DNebula" type="Parallax2D" parent="BGParalax"]
+scroll_scale = Vector2(0.5, 0.5)
 repeat_size = Vector2(0, 1024)
 autoscroll = Vector2(0, -50)
 repeat_times = 3
@@ -208,6 +198,16 @@ repeat_times = 3
 [node name="Sprite2D" type="Sprite2D" parent="BGParalax/Parallax2DNebula"]
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("3_oic2i")
+centered = false
+
+[node name="Parallax2DStars" type="Parallax2D" parent="BGParalax"]
+repeat_size = Vector2(0, 1024)
+autoscroll = Vector2(0, -10)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="BGParalax/Parallax2DStars"]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_ml8bw")
 centered = false
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="BGParalax"]
@@ -228,6 +228,7 @@ grow_horizontal = 0
 grow_vertical = 2
 size_flags_horizontal = 8
 color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect" type="ColorRect" parent="Node2D"]
 anchors_preset = 4
@@ -240,6 +241,7 @@ offset_bottom = 377.0
 grow_vertical = 2
 size_flags_horizontal = 0
 color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="Player" type="Node2D" parent="."]
 position = Vector2(281, 176)
@@ -293,6 +295,12 @@ layout_mode = 2
 theme = ExtResource("5_er5qh")
 text = "Continue"
 
+[node name="ButtonRanking" type="Button" parent="CanvasLayer/ControlButtons/VBoxContainer"]
+visible = false
+layout_mode = 2
+theme = ExtResource("5_er5qh")
+text = "Rankings"
+
 [node name="ButtonSettings" type="Button" parent="CanvasLayer/ControlButtons/VBoxContainer"]
 layout_mode = 2
 theme = ExtResource("5_er5qh")
@@ -322,5 +330,6 @@ parameters/looping = true
 
 [connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonNew" to="." method="_on_button_new_pressed"]
 [connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonContinue" to="." method="_on_button_continue_pressed"]
+[connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonRanking" to="." method="_on_button_ranking_pressed"]
 [connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonSettings" to="." method="_on_button_settings_pressed"]
 [connection signal="pressed" from="CanvasLayer/ControlButtons/VBoxContainer/ButtonExit" to="." method="_on_button_exit_pressed"]

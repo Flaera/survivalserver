@@ -1,0 +1,307 @@
+[gd_scene load_steps=5 format=3 uid="uid://wm1iv64q6r7e"]
+
+[ext_resource type="Script" uid="uid://5tmewvn6mico" path="res://scripts/menus/main_menu/select_load_game/select_load_slot.gd" id="1_0cx11"]
+[ext_resource type="Theme" uid="uid://t3vl80sdwm8r" path="res://themes/main_menu.tres" id="2_gm8a5"]
+[ext_resource type="Theme" uid="uid://d1i2k7nn4b0rb" path="res://themes/alpha_bg_full_elements.tres" id="3_phofs"]
+[ext_resource type="Texture2D" uid="uid://fpw24goemi8q" path="res://assets/Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png" id="4_kdoy5"]
+
+[node name="SelectLoadSlot" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0cx11")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.772549)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -126.0
+offset_top = -166.5
+offset_right = 126.0
+offset_bottom = 166.5
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_gm8a5")
+text = "Load game:"
+
+[node name="HBoxContainerButtons" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonSlot1" type="Button" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer"]
+custom_minimum_size = Vector2(80, 180)
+layout_mode = 2
+theme = ExtResource("2_gm8a5")
+text = "SLOT 1"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -50.0
+offset_top = -58.0
+offset_right = 50.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 0
+alignment = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="RichTextLabel" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+text = "SCORE:"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Score" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="HealthIndicatorBlackOutline(8X8)" type="Sprite2D" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer/HBoxContainer"]
+position = Vector2(29, 14.5)
+scale = Vector2(2.945, 2.945)
+texture = ExtResource("4_kdoy5")
+hframes = 2
+
+[node name="Lifes" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_gm8a5")
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonSlot2" type="Button" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2"]
+custom_minimum_size = Vector2(80, 180)
+layout_mode = 2
+theme = ExtResource("2_gm8a5")
+text = "SLOT 2"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -50.0
+offset_top = -58.0
+offset_right = 50.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 0
+alignment = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="RichTextLabel" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+text = "SCORE:"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Score" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="HealthIndicatorBlackOutline(8X8)" type="Sprite2D" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer/HBoxContainer"]
+position = Vector2(29, 14.5)
+scale = Vector2(2.945, 2.945)
+texture = ExtResource("4_kdoy5")
+hframes = 2
+
+[node name="Lifes" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_gm8a5")
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonSlot3" type="Button" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3"]
+custom_minimum_size = Vector2(80, 180)
+layout_mode = 2
+theme = ExtResource("2_gm8a5")
+text = "SLOT 3"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -50.0
+offset_top = -58.0
+offset_right = 50.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 0
+alignment = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="RichTextLabel" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+text = "SCORE:"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Score" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+alignment = 1
+
+[node name="HealthIndicatorBlackOutline(8X8)" type="Sprite2D" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer/HBoxContainer"]
+position = Vector2(29, 14.5)
+scale = Vector2(2.945, 2.945)
+texture = ExtResource("4_kdoy5")
+hframes = 2
+
+[node name="Lifes" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_phofs")
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainerButtons/VBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_gm8a5")
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonBack" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("2_gm8a5")
+theme_override_font_sizes/font_size = 45
+text = "Back"
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ColorRect2" type="ColorRect" parent="Node2D"]
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 414.0
+offset_top = -21.0
+offset_right = 624.0
+offset_bottom = 388.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 8
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="Node2D"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -47.0
+offset_top = -32.0
+offset_right = 140.0
+offset_bottom = 377.0
+grow_vertical = 2
+size_flags_horizontal = 0
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1" to="." method="_on_button_slot_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2" to="." method="_on_button_slot_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3" to="." method="_on_button_slot_3_pressed"]

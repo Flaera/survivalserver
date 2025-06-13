@@ -1,7 +1,10 @@
-[gd_resource type="Resource" script_class="SaveGame" load_steps=2 format=3 uid="uid://bui2yr44vjvkl"]
+[gd_resource type="Resource" script_class="SaveGame" load_steps=2 format=3 uid="uid://dj4a0swsu6ooi"]
 
 [ext_resource type="Script" uid="uid://cipwa4eyl8k6b" path="res://resources/game_save_template.gd" id="1_ijav1"]
 
 [resource]
 script = ExtResource("1_ijav1")
 player_name = ""
+score = 332
+lifes = 1
+progress_in_game = 0

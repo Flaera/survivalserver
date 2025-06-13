@@ -11,6 +11,14 @@ func load_slots_data():
 	$VBoxContainer/HBoxContainerButtons/VBoxContainer/Label.text=save1.player_name
 	$VBoxContainer/HBoxContainerButtons/VBoxContainer2/Label.text=save2.player_name
 	$VBoxContainer/HBoxContainerButtons/VBoxContainer3/Label.text=save3.player_name
+	
+	$VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer/HBoxContainer2/Score.text=str(save1.score)
+	$VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer/HBoxContainer2/Score.text=str(save2.score)
+	$VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer/HBoxContainer2/Score.text=str(save3.score)
+	
+	$VBoxContainer/HBoxContainerButtons/VBoxContainer/ButtonSlot1/VBoxContainer/HBoxContainer/Lifes.text=str(save1.lifes)
+	$VBoxContainer/HBoxContainerButtons/VBoxContainer2/ButtonSlot2/VBoxContainer/HBoxContainer/Lifes.text=str(save2.lifes)
+	$VBoxContainer/HBoxContainerButtons/VBoxContainer3/ButtonSlot3/VBoxContainer/HBoxContainer/Lifes.text=str(save3.lifes)
 
 
 func erase_save_slot(res_pos: int):
@@ -20,12 +28,15 @@ func erase_save_slot(res_pos: int):
 	if (res_pos==1):
 		save1.player_name = ""
 		save1.score = 0
+		save1.lifes = 0
 	elif (res_pos==2):
 		save2.player_name = ""
-		save3.score=0
+		save2.score=0
+		save2.lifes=0
 	elif (res_pos==3):
 		save3.player_name = ""
 		save3.score=0
+		save3.lifes=0
 	
 
 
@@ -39,7 +50,7 @@ func go_warning(pos_save: int):
 	game_settings.current_save_game=pos_save
 	ResourceSaver.save(game_settings,"res://resources/save_settings.tres")
 	#queue_free()
-	get_tree().change_scene_to_file("res://menus/main_menu/warning_new_game.tscn")
+	add_child(load("res://menus/main_menu/warning_new_game.tscn").instantiate())
 	
 
 

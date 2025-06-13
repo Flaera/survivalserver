@@ -5,3 +5,6 @@
 [resource]
 script = ExtResource("1_vtlr4")
 player_name = ""
+score = 0
+lifes = 0
+progress_in_game = 0

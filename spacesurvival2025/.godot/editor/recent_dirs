@@ -1,9 +1,14 @@
+res://scripts/menus/win_screen
+res://scripts/menus/pause_menu
+res://scripts/levels
+res://assets/Mini Pixel Pack 3/Mini Pixel Pack 3/UI objects
+res://themes
+res://scripts/menus/main_menu/select_load_game
 res://scripts/menus/main_menu/new_game_slots
 res://scripts/menus/main_menu/warning_new_game
 res://resources
 res://
 res://scripts/menus/settings_menu
-res://themes
 res://menus/main_menu
 res://scripts/menus/main_menu
 res://animations

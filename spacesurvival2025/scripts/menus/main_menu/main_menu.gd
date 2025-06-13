@@ -33,8 +33,10 @@ func _process(delta: float) -> void:
 		elif (steps_ship_end==1 and continue_game==true
 		 and $"Player/PlayerShip(16X16)/AnimationPlayer".is_playing()==false):
 			steps_ship_end+=1
-			print("CONTINUE!!")
-			#CONTINUE GAME
+			var select_slot_scene = load("res://menus/main_menu/select_load_slot.tscn")
+			var sslot_instantiate = select_slot_scene.instantiate()
+			$CanvasLayer.add_child(sslot_instantiate)
+			
 
 
 
@@ -70,3 +72,7 @@ func _on_button_settings_pressed() -> void:
 
 func _on_button_exit_pressed() -> void:
 	get_tree().quit()
+
+
+func _on_button_ranking_pressed() -> void:
+	pass # Replace with function body.
